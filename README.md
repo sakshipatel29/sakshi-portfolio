@@ -22,7 +22,6 @@ Open `http://localhost:8000` in your browser.
 
 - GitHub profile is set to `https://github.com/sakshipatel29`.
 - Email is set to `sakshipatel2914@gmail.com`.
-- Add your exact LinkedIn URL anywhere you would like another contact button.
 
 ## Files
 
