@@ -1,98 +1,38 @@
-# Sakshi Patel — Software Engineer Portfolio
+# Sakshi Patel — Portfolio Website
 
-A modern and responsive personal portfolio showcasing my professional experience, technical skills, and software engineering projects.
+A responsive, single-page software engineering portfolio built with plain HTML, CSS, and JavaScript.
 
-## Live Portfolio
+## Preview locally
 
-[View My Portfolio](https://sakshi-portfolio-gold.vercel.app/)
+```bash
+python3 -m http.server 8000
+```
 
-## About Me
+Open `http://localhost:8000` in your browser.
 
-I am a Software Engineer with more than three years of experience building backend systems, microservices, event-driven applications, and AI-powered platforms.
+## Publish with GitHub Pages
 
-My experience includes developing secure and scalable applications using Python, Java, FastAPI, Spring Boot, Kafka, PostgreSQL, Redis, AWS, Docker, and Kubernetes.
+1. Create a new public GitHub repository, for example `sakshipatel29.github.io`.
+2. Upload everything in this folder to the repository root.
+3. In GitHub, open **Settings → Pages**.
+4. Select **Deploy from a branch**, choose `main` and `/root`, then save.
 
-I enjoy solving practical engineering problems, improving system reliability, and building technology that creates meaningful value for users.
+## Personal links
 
-## Portfolio Features
+- GitHub profile is set to `https://github.com/sakshipatel29`.
+- Email is set to `sakshipatel2914@gmail.com`.
+- Add your exact LinkedIn URL anywhere you would like another contact button.
 
-* Responsive design for desktop, tablet, and mobile
-* Light and dark themes
-* Professional experience timeline
-* Featured software engineering projects
-* Technical skills and education sections
-* Downloadable résumé
-* GitHub and contact links
-* Smooth scrolling and subtle animations
+## Files
 
-## Featured Projects
-
-### LaunchGuard
-
-A feature flag and progressive delivery platform designed to help engineering teams release features safely.
-
-Key features include:
-
-* Deterministic percentage-based rollouts
-* PostgreSQL persistence
-* Redis caching
-* Kafka event streaming
-* REST APIs
-* Docker-based local infrastructure
-* Automated GitHub Actions testing
-
-### CI/CD Pipeline and Test Automation Framework
-
-An automated delivery pipeline for a FastAPI application.
-
-The pipeline performs:
-
-* API testing
-* Code linting
-* Test coverage validation
-* Docker image builds
-* Smoke testing
-* Container registry publishing
-* Kubernetes deployment validation
-
-### AI-Powered Enterprise Knowledge Assistant
-
-An enterprise knowledge retrieval platform that uses Retrieval-Augmented Generation and semantic search to provide grounded answers from internal documentation.
-
-The platform includes:
-
-* FastAPI backend services
-* LangChain-based RAG workflows
-* Vector embeddings and semantic search
-* JWT authentication
-* PostgreSQL integration
-* Asynchronous request processing
-* Response caching
-
-## Technical Skills
-
-**Programming:** Python, Java, SQL, Go and Bash
-
-**Backend:** FastAPI, Spring Boot, REST APIs, Microservices and JWT Authentication
-
-**AI and Search:** LLM Integration, RAG, LangChain, Vector Embeddings and Semantic Search
-
-**Databases and Messaging:** PostgreSQL, Redis and Apache Kafka
-
-**Cloud and DevOps:** AWS, Docker, Kubernetes, GitHub Actions and Maven
-
-**Testing and Observability:** Pytest, JUnit, Mockito, CloudWatch and Grafana
+- `index.html` — page content
+- `styles.css` — responsive design and animation
+- `script.js` — theme, mobile navigation, and reveal interactions
+- `assets/Sakshi_Patel_Resume.pdf` — downloadable résumé
 
 
-## Contact
+## Forward Deployed Engineering Projects
 
-**Sakshi Patel**
-
-* Email: [sakshipatel2914@gmail.com](mailto:sakshipatel2914@gmail.com)
-* GitHub: https://github.com/sakshipatel29
-* LinkedIn: https://www.linkedin.com/in/sakshirp/
-* Location: Chicago, Illinois, USA
-
----
-
-Building with purpose. Growing with every challenge.
+- **ResolveOps** — Enterprise exception resolution across support, CRM, order, payment, and refund systems with deterministic controls, evidence-grounded AI, human approval, and protected execution.
+- **StoreFlow** — Customer-discovered smart restocking workflow designed around a legacy POS, piloted with a supplier, measured, trained, and iterated from operational feedback.
+- **Microsoft 365 Copilot Healthcare Deployment** — Production-oriented enterprise AI deployment case study covering integrations, permissions, governance, evaluation, release thresholds, and controlled rollout.
